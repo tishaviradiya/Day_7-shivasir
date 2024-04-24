@@ -1,0 +1,62 @@
+/* App.css */
+.App {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.Header {
+  margin-bottom: 2rem;
+}
+
+.Main {
+  display: flex;
+  justify-content: center;
+}
+
+.Loader {
+  font-size: 1.5rem;
+  color: #333;
+  margin-top: 2rem;
+}
+
+.Error {
+  font-size: 1.5rem;
+  color: #ff0000;
+  margin-top: 2rem;
+}
+
+.ProductGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.ProductCard {
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.ProductImage {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.ProductTitle {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.ProductPrice {
+  font-weight: bold;
+  color: #007bff;
+  margin-bottom: 0.5rem;
+}
+
+.ProductDescription {
+  color: #666;
+}
